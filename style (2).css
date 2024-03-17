@@ -1,0 +1,82 @@
+box {
+    width: 98vw;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    width:700px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    border: 1px solid black;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.red {
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.green {
+    width: 150px;
+    height: 50px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+}
+
+.orange {
+    width: 150px;
+    height: 50px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.right {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right_content {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.zakrit {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid grey;
+    transition: background-color 0.4s, box-shadow 0.2s 0.3s;
+}
+
+.text {
+    font-size: 20px;
+    font-family: 'Urbanist', sans-serif;
+}
